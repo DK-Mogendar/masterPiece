@@ -17,6 +17,10 @@ Route::get('/wip', function () {
     return view('wip');
 });
 
-Auth::routes();
+Route::get('/categorie', function () {
+    return view('categorie');
+});
+
+/*Auth::routes();*/
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
