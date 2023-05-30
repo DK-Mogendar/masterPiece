@@ -17,7 +17,7 @@
          </div>
 
          <div>
-            <button type="button" class="btn btn-secondary" style="border-radius: 50px;height: auto; width: 100%;">
+            <button type="button" class="btn btn-secondary" style="border-radius: 50px;height: auto; width: 100%run npm;">
                <a href="{{ url('/login') }}" class="btn btn-secondary">login</a>
             </button>
          </div>
