@@ -12,15 +12,28 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::get('/componet', function () {
+    return view('indexZwei');
+});
+
+/*-------------------------------------------------------------------------*/
+Route::get('/', function () {
+    return view('wip');
+});
 
 Route::get('/wip', function () {
     return view('wip');
 });
-
-Route::get('/categorie', function () {
-    return view('categorie');
+Route::get('/welcome', function () {
+    return view('welcome');
 });
 
-Auth::routes();
+
+
+/*Auth::routes();*/
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
