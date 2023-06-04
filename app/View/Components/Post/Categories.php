@@ -21,6 +21,14 @@ class Categories extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.post.categories');
+        $categories = collect([
+            ["title"=>"Kategorie 1", "id"=>1],
+            ["title"=>"Kategorie 2", "id"=>2],
+            ["title"=>"Kategorie 3", "id"=>3],
+            ["title"=>"Kategorie 4", "id"=>4],
+            ["title"=>"Kategorie 5", "id"=>5],
+        ]);
+
+        return view('components.post.categories', compact('categories'));
     }
 }
