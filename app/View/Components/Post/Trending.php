@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class TrendingStories extends Component
+class Trending extends Component
 {
     /**
      * Create a new component instance.
@@ -21,6 +21,6 @@ class TrendingStories extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.post.trending-stories');
+        return view('components.post.trending');
     }
 }

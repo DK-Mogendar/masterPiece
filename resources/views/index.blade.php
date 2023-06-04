@@ -35,9 +35,9 @@
 
     <x-post.newest/>
 
-    <x-post.kategorien/>
+    <x-post.categories/>
 
-    <x-post.trending-stories/>
+    <x-post.trending/>
 
 </div>
 </x-layouts.main>
