@@ -13,7 +13,8 @@
         }
     </style>
 </head>
-<body class="bg-gray-100 min-h-screen flex flex-col">
+<body style="background-image: url('{{ asset('images/hg.jpg') }}');background-size: cover;background-repeat: no-repeat;background-position: center center; min-height:100vh;"
+      class="bg-gray-100 min-h-screen flex flex-col">
 
 <x-layouts.header/>
 
