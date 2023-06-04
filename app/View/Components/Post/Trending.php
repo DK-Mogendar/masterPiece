@@ -21,6 +21,14 @@ class Trending extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.post.trending');
+        $posts = collect([
+            ["title"=>"Intersseanter Beitrag 1", "id"=>1],
+            ["title"=>"Intersseanter Beitrag 2", "id"=>2],
+            ["title"=>"Intersseanter Beitrag 3", "id"=>3],
+            ["title"=>"Intersseanter Beitrag 4", "id"=>4],
+            ["title"=>"Intersseanter Beitrag 5", "id"=>5],
+        ]);
+        
+        return view('components.post.trending', compact('posts'));
     }
 }
