@@ -20,7 +20,7 @@
 
          <div>
             <button type="button" class="btn btn-secondary" style="border-radius: 50px;height: auto; width: 100%;">
-               <a href="{{ url('/index') }}" class="btn btn-secondary">login</a>
+               <a href="{{ url('/componet') }}" class="btn btn-secondary">login</a>
             </button>
          </div>
 

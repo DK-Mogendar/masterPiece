@@ -12,8 +12,8 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/indexAlt', function () {
-    return view('indexAlt');
+Route::get('/index', function () {
+    return view('index');
 });
 
 Route::get('/componet', function () {
