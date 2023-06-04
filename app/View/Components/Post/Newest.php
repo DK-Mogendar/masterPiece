@@ -21,6 +21,14 @@ class Newest extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.post.newest');
+        $posts = collect([
+            ["titel"=>"Beitrag 1", "id"=>1],
+            ["titel"=>"Beitrag 2", "id"=>2],
+            ["titel"=>"Beitrag 3", "id"=>3],
+            ["titel"=>"Beitrag 4", "id"=>4],
+            ["titel"=>"Beitrag 5", "id"=>5],
+        ]);
+
+        return view('components.post.newest', compact('posts'));
     }
 }

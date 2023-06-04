@@ -4,11 +4,9 @@
     </div>
     <div class="mt-5 text-gray-700 text-sm">
         <ul>
-            <li><a href="#">Überschrift Beitrag 1</a></li>
-            <li><a href="#">Überschrift Beitrag 2</a></li>
-            <li><a href="#">Überschrift Beitrag 3</a></li>
-            <li><a href="#">Überschrift Beitrag 4</a></li>
-            <li><a href="#">Überschrift Beitrag 5</a></li>
+            @foreach ($posts as $post)
+            <li><a href="/post/{{$post['id']}}">{{$post['titel']}}</a></li>
+            @endforeach
         </ul>
     </div>
 </div>
