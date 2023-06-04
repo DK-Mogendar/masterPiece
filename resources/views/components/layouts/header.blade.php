@@ -1,4 +1,4 @@
-<header class="bg-white border-t-4 border-blue-600 shadow mb-5">
+<header class="bg-white-25 border-t-4 border-blue-600 shadow mb-5">
     <nav class="container max-w-7xl mx-auto px-5 lg:px-40 py-5 flex justify-between">
         <ul class="flex space-x-5">
             <li class="font-bold mr-5 text-blue-600">Mogendar-Art-Blog</li>
