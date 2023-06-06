@@ -16,24 +16,20 @@ Route::get('/index', function () {
     return view('index');
 });
 
-Route::get('/componet', function () {
-    return view('index');
-});
+
 
 /*-------------------------------------------------------------------------*/
 Route::get('/', function () {
     return view('wip');
 });
 
-Route::get('/wip', function () {
-    return view('wip');
-});
+
 Route::get('/welcome', function () {
     return view('welcome');
 });
 
 
 
-Auth::routes();
+//Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
