@@ -20,7 +20,11 @@ class PostFactory extends Factory
             'user_id'=> $this->faker->numberBetween(1,100),
             'title'=>$this->faker->sentence,
             'body'=>$this->faker->text(),
-            'created_at'=> $this->faker->dateTimeBetween(startDate:'2020-01-01', endDate:'21-12-31')
+            'created_at'=> $this->faker->dateTimeBetween(startDate:'2020-01-01', endDate:'21-12-31'),
+            'deleted_at'=>$this->faker->randomElement([
+                null,
+                $this->faker->dateTimeBetween(startDate:'2020-01-01', endDate:'21-12-31')
+            ])
         ];
     }
 }

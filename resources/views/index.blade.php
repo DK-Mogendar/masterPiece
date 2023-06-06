@@ -12,7 +12,7 @@
             </div>
         </div>
         <div class="footer rounded-b border-t border-gray-300 p-5 text-gray-700 font-bold text-xs bg-indigo-100">
-            {{$post->user_id}}
+            <a href="mailto:{{ $post->user->email }}">{{$post->user->name}}</a>
         </div>
     </div>
     @endforeach
