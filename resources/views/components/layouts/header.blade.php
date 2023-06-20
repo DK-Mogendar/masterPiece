@@ -8,7 +8,10 @@
             <li><a href="#">Impressum</a></li>
         </ul>
         <ul>
-            <li><a href="#">Login</a></li>
+            <li><a href="/register">Register</a></li>
+        </ul>
+        <ul>
+            <li><a href="/login">Login</a></li>
         </ul>
     </nav>
 </header>

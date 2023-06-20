@@ -20,9 +20,6 @@ Route::prefix('admin')->group(function(){
     });
     
 });
-
-
-
 Route::get('/blog/{id}', function($id) {
     $post=\App\Models\Post::first();
     return view('blog.show', compact('post'));
@@ -33,8 +30,6 @@ Route::get('/blog/{id}', function($id) {
 Route::get('/', function () {
     return view('wip');
 });
-
-
 Route::get('/welcome', function () {
     return view('welcome');
 });
@@ -42,5 +37,18 @@ Route::get('/welcome', function () {
 
 
 //Auth::routes();
-
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+// Authentifizierungsrouten
+Route::get('/login', [App\Http\Controllers\Auth\LoginController::class, 'showLoginForm'])->name('login');
+Route::post('/login', [App\Http\Controllers\Auth\LoginController::class, 'login']);
+Route::post('/logout', [App\Http\Controllers\Auth\LoginController::class, 'logout'])->name('logout');
+
+// Registrierungsrouten
+Route::get('/register', [App\Http\Controllers\Auth\RegisterController::class, 'showRegistrationForm'])->name('register');
+Route::post('/register', [App\Http\Controllers\Auth\RegisterController::class, 'register']);
+
+// E-Mail-Verifikationsrouten
+Route::get('/email/verify', [App\Http\Controllers\Auth\VerificationController::class, 'show'])->name('verification.notice');
+Route::get('/email/verify/{id}/{hash}', [App\Http\Controllers\Auth\VerificationController::class, 'verify'])->name('verification.verify');
+Route::post('/email/resend', [App\Http\Controllers\Auth\VerificationController::class, 'resend'])->name('verification.resend');

@@ -25,4 +25,14 @@ class HomeController extends Controller
     {
         return view('home');
     }
+    /**
+     * Logout the authenticated user.
+     *
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function logout()
+    {
+        Auth::logout();
+        return redirect('/login');
+    }
 }
