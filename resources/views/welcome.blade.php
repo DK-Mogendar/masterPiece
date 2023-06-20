@@ -129,6 +129,11 @@
                             </a>
                         </div>
                     </div>
+                    <div class="my-div d-flex justify-content-center">
+                        <button type="button" class="btn btn" style="border-radius: 50px;border: 3px solid rgb(249, 2, 2);padding:3px;">
+                           <a href="{{ url('start') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">back to Website</a>
+                        </button>
+                     </div>
 
                     <div class="ml-4 text-center text-sm text-gray-500 dark:text-gray-400 sm:text-right sm:ml-0">
                         Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
