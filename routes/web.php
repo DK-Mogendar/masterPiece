@@ -12,7 +12,21 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/index',[StartpageContoller::class,'index']);
+Route::get('/start',[StartpageContoller::class,'index']);
+
+Route::prefix('admin')->group(function(){
+    Route::name('admin')->group(function(){
+        Route::view('test','test')->name(name:'test');
+    });
+    
+});
+
+
+
+Route::get('/blog/{id}', function($id) {
+    $post=\App\Models\Post::first();
+    return view('blog.show', compact('post'));
+});
 
 
 /*-------------------------------------------------------------------------*/
