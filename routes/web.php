@@ -33,7 +33,12 @@ Route::get('/', function () {
 Route::get('/welcome', function () {
     return view('welcome');
 });
-
+Route::get('/test', function () {
+    return view('test');
+});
+Route::get('/aboutMy', function () {
+    return view('aboutMy');
+});
 
 
 //Auth::routes();
