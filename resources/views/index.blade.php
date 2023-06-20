@@ -10,6 +10,9 @@
                 <div class="text-3xl text-blue-900">{{$post->title}}</div>
                 <div class="text-lg text-gray-700">{{$post->body}}</div>
             </div>
+            <button type="button" class="btn btn mb-3 ml-3" style="border-radius: 50px; height: auto; width: 33mm;border: 3px solid rgb(42, 46, 165);">
+                <a href="{{ url('/blog/'.$post->id) }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">Blog</a>
+            </button>
             <div class="footer rounded-b border-t border-gray-300 p-5 text-gray-700 font-bold text-xs bg-indigo-100">
                 <a href="mailto:{{ $post->user->email }}">{{$post->user->name}}</a>
             </div>

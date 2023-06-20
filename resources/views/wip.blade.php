@@ -20,7 +20,7 @@
 
          <div class="my-div d-flex justify-content-center">
             <button type="button" class="btn btn" style="border-radius: 50px; height: auto; width: 55%;border: 25px solid brown;">
-               <a href="{{ url('/start') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">login</a>
+               <a href="{{ url('start') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">login</a>
             </button>
          </div>
 
