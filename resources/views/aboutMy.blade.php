@@ -20,27 +20,28 @@
                     <br>
                     <a href="https://www.linkedin.com/in/daniel-k%C3%B6stinger-6a72b9256/" target="_blank">https://www.linkedin.com/in/daniel-k%C3%B6stinger-6a72b9256/</a>
                 </div>  
+                <br>
                 <div class="rounded-b border-t border-gray-300 p-5 text-gray-700 text-xs bg-indigo-100">
                     <h2 class="text-blue text-xl ">Opportunity-Zertifikat (2023)</h2> 
 
-	                    <p>Behandelte Applikationen und Programme</p>
-                        <p>◦ Html, CSS, JavaScript</p>
-                        <p>◦ GitHub, Figma, Trello, Miro</p>
-                        <p>◦ WordPress, VueJs, Laravell</p>
-                        <p>◦ Sass, Scss</p>
-                        <p>◦ phpMyAdmin, MySQL, Heidi SQL</p>
-                        <p>◦ Docker</p>
-                        <br>
-                        <br>
-                        <h2 class="text-blue text-xl ">ICT</h2>
-                        <p>MS Excel: gute Kenntnisse</p>
-                        <p>MS Word gute Kenntnisse</p>
-                        <p>MS Access : Grundkenntnisse</p>
-                        <br>
-                        <br>
-                        <p>Sprachen: Deutsch: Muttersprache</p>
-                        <p>Englisch: Grundkenntnisse</p>
-                        <p>Französische: Vorkenntnisse</p>
+	                <p>Behandelte Applikationen und Programme</p>
+                    <p>◦ Html, CSS, JavaScript</p>
+                    <p>◦ GitHub, Figma, Trello, Miro</p>
+                    <p>◦ WordPress, VueJs, Laravell</p>
+                    <p>◦ Sass, Scss</p>
+                    <p>◦ phpMyAdmin, MySQL, Heidi SQL</p>
+                    <p>◦ Docker</p>
+                    <br>
+                    <br>
+                    <h2 class="text-blue text-xl ">ICT</h2>
+                    <p>MS Excel: gute Kenntnisse</p>
+                    <p>MS Word gute Kenntnisse</p>
+                    <p>MS Access : Grundkenntnisse</p>
+                    <br>
+                    <br>
+                    <p>Sprachen: Deutsch: Muttersprache</p>
+                    <p>Englisch: Grundkenntnisse</p>
+                    <p>Französische: Vorkenntnisse</p>
                 </div>
             </div>
         </div>
