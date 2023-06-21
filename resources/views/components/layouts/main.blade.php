@@ -48,7 +48,8 @@
             <x-post.newest/>
             <x-post.categories/>
             <x-post.trending/>
-
+            <br>
+            <br>
         @endif
     
     </div>
