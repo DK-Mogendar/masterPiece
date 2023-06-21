@@ -44,12 +44,18 @@
                 </div>
             </div>
         
-            
+            @if (!Route::is('aboutMy'))
             <x-post.newest/>
             <x-post.categories/>
             <x-post.trending/>
             <br>
             <br>
+            @else 
+            <x-post.a/>
+            <x-post.b/>
+            <x-post.c/>
+            @endif
+
         @endif
     
     </div>
@@ -57,7 +63,7 @@
 
 <x-layouts.footer/>
 
-<!--<script src="{{asset('js/app.js')}}" type="text/javascript"></script>-->
+
 
 </body>
 </html>

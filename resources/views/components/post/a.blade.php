@@ -4,9 +4,7 @@
     </div>
     <div class="mt-5 text-gray-700 text-sm">
         <ul>
-            @foreach ($categories as $category)
-            <li><a href="/category/{{$category['id']}}">{{$category['title']}}</a></li>
-            @endforeach
+        
         </ul>
     </div>
 </div>

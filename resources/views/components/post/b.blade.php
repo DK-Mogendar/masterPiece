@@ -4,9 +4,7 @@
     </div>
     <div class="mt-5 text-gray-700 text-sm">
         <ul>
-            @foreach ($posts as $post)
-            <li><a class="line-clamp-1" href="/post/{{$post['id']}}">{{$post['title']}}</a></li>
-            @endforeach
+         
         </ul>
     </div>
 </div>
