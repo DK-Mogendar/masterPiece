@@ -18,7 +18,8 @@
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     <script src="{{ mix('js/app.js') }}"></script>
 </head>
-<body>
+<body style="background-image: url('{{ asset('images/hg.jpg') }}');"      class="bg-indigo-100 min-h-screen flex flex-col">
+
     <div id="app">
         <nav class="flex flex-1 container max-w-7xl mx-auto px-5 lg:px-40 space-x-5 mb-5">
             <div class="container">

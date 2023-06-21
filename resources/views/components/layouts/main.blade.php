@@ -44,17 +44,13 @@
                 </div>
             </div>
         
-            @if (!Route::is('aboutMy'))
+         
             <x-post.newest/>
             <x-post.categories/>
             <x-post.trending/>
             <br>
             <br>
-            @else 
-            <x-post.a/>
-            <x-post.b/>
-            <x-post.c/>
-            @endif
+      
 
         @endif
     

@@ -1,8 +1,8 @@
 <header class="bg-white-25 border-t-4 border-blue-600 shadow mb-5">
     <nav class="container max-w-7xl mx-auto px-5 lg:px-40 py-5 flex justify-between">
         <ul class="flex space-x-5">
-            <li class="font-bold mr-5 text-blue-600">Mogendar-Art-Blog</li>
-            <li><a href="{{ url('start') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">Home</a></li>
+            <a href="{{ url('/') }}" class="font-bold mr-5 text-blue-600">Mogendar-Art-Blog</a>
+            <li><a href="{{ url('start') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">Home/Start</a></li>
             <li><a href="{{ url('welcome') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">Archiv Laravel</a></li>
             <li><a href="{{ url('test') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">Newsletter</a></li>
             <li><a href="{{ url('aboutMy') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">About My</a></li>

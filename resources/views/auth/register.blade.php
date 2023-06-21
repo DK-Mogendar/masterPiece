@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container" style="background-image: url('{{ asset('images/hg.jpg') }}');">
+<div class="container " >
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
+            <div class="card bg-indigo-100">
                 <div class="card-header">{{ __('Register') }}</div>
 
                 <div class="card-body">
