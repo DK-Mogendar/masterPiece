@@ -1,3 +1,27 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------
+##Projekt verlauf:
+------------------
+
+Ganz zu beginn des Projekts MasterPiece wollte ich einen Webshop machen. Dazu habe ich zuest ein Wireframe estellt.
+
+https://www.figma.com/file/4jsGdcpsOYCJh5FBRDtnA5/Master-Piece-Wireframe?type=design&node-id=0%3A1&t=5BtlWx3jc9Fxj83k-1
+
+und Anschliessend Ein Figma erstellt. 
+
+Ausserdem Habe ich einige SVG produziert. Nach anfänglichen änderungen nach ersten Feedbacks musste ich nochmals alles re Desingen. Je mehr ich jedoch daran gearbeited habe habe ich bemerkt das es Zeitlich nicht mehr hinnhauen kann habe ich das Kozept Webshop über den Haufen Geworfen und mich doch für einen Blog entschieden. Dieser ganz Vorprozess hat mich ungaublich viel Zeit gekosted, so das ich das Projekt um Zwei wochen Verlängern musste. Genauere Detail im Trello.
+
+https://www.figma.com/file/ytZYVm6HyRTR2lV9VP1nXW/Master-Piece-Mockup?type=design&node-id=0%3A1&t=70z3zJ21BkFEGOhT-1
+
+https://trello.com/b/ga35GFEH/masterpiece
+
+So Begann ich also Mit dem Projekt Mogendar-Art-Blog.
+Leider hatte ich Zeitlich nicht mehr die Recouse um nochmals ein Figma zu machen. Dahe habe ich einfach ohne eines Begonnen. Ich hatte zwar so ein ungefähres Bild vor Augen aber ja.
+Ein weiteres Problem waren die grund Konfigurationen.Ich hatte nur ein Beispiele in welchem der User unter Widows Arbeitete und noch in einem Anderen Code Programm (Oracel) und ich unter Ubuntu mit VisualCode. Dieses Umdenken haben mich sehr viel Zeit gekosted.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -66,25 +90,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 
-
-
------------------------------------------------------------------------------------------------------------------------------------
-##Projekt verlauf:
-------------------
-
-Ganz zu beginn des Projekts MasterPiece wollte ich einen Webshop erstellen. dazu habe ich zuest ein Wireframe 
-
-https://www.figma.com/file/4jsGdcpsOYCJh5FBRDtnA5/Master-Piece-Wireframe?type=design&node-id=0%3A1&t=5BtlWx3jc9Fxj83k-1
-
-und Anschliessend Ein Figma erstellt. 
-
-https://www.figma.com/file/ytZYVm6HyRTR2lV9VP1nXW/Master-Piece-Mockup?type=design&node-id=0%3A1&t=70z3zJ21BkFEGOhT-1
-
-Ausserdem Habe ich einige SVG produziert. Nach anfänglichen änderungen nach ersten Feedbacks musste ich nochmals alles re Desingen. Je mehr ich jedoch daran gearbeited habe habe ich bemerkt das es Zeitlich nicht mehr hinnhauen kann habe ich das Kozept Webshop über den Haufen Geworfen und mich doch für einen Blog entschieden. Dieser ganz Vorprozess hat mich ungaublich viel Zeit gekosted, so das ich das Projekt um Zwei wochen Verlängern musste. Genauere Detail im Trello.
-
-https://trello.com/b/ga35GFEH/masterpiece
-
-So Begann ich also Mit dem Projekt Mogendar-Art-Blog.
-Leider hatte ich Zeitlich nicht mehr die Recouse um nochmals ein Figma zu machen. Dahe habe ich einfach ohne eines Begonnen. Ich hatte zwar so ein ungefähres Bild vor Augen aber ja.
-Ein weiteres Problem waren die grund Konfigurationen.Ich hatte nur ein Beispiele in welchem der User unter Widows Arbeitete und noch in einem Anderen Code Programm (Oracel) und ich unter Ubuntu mit VisualCode. Dieses Umdenken haben mich sehr viel Zeit gekosted.
 
