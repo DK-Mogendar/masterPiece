@@ -37,9 +37,9 @@
                         So das jeder siet dass sie noch im Aufbau ist.
                         So arbeitete ich mich durch die einzelnen Punke. Angefangen mit der main und index.blade.php. Ich werde nicht alles aufzählen. 
                         Bitte Trello link beachetn.
-
+                        <br>
                         Leider wurde mir auch hier klar dass die Zeit zu kurtz sein würde um alles was ich gerne umsetzten wollte ein zu bringen. So habe ich mich als sich die Zeit langsahm zu ende neigte, nur noch um das wichtigste und die Funktionalität gekümmert. Damit es zumindest im localen Host gut aussieht.
-
+                        <br>
                         #Retrospektieve: Projekt "MasterPiece"
                                                
                         Was ich besondes gut an dieser Aufgabe gefundenhabe ist das ich nun einen viel besseren einblick und besseres verständnis für die funktionalität von Figma und Laravell mit Breez erlngt habe. 
