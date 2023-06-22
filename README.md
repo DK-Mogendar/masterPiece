@@ -1,6 +1,6 @@
 
 
-<img src="{{ asset('images/FLogo.svg') }}" alt="SVG-Bild" 
+<img src="{{ asset('images/FLogo.svg') }}" alt="SVG-Bild">
 
 
 <a href="{{ url('/') }}" class="font-bold mr-5 text-blue-600">Mogendar-Art-Blog</a>
@@ -42,11 +42,57 @@ https://trello.com/b/ga35GFEH/masterpiece
 
 #Projekt Programmierung: Projekt "MasterPiece"
 ------------------------
-Am Anfang ging es schnell und gut (ist am Anfang immer so)
+Am Anfang ging es schnell und gut (ist am Anfang immer so).
 Ich erstellte die grundlegende Struktur mit Laravell mit Breeze.
-Dann erstellte ich die Work in Progress Seite. In dieser wollte ich ein spezielles SVG darstellen Welches eine neuinterpretation eines alten Testbildes zusammen mit meinen Logo darstellen sollte.
-Das gatze sollte als Einstieg zu der eigentlichen Webseite werden. So das jeder siet dass sie noch im Aufbau ist.
-So arbeitete ich mich durch die einzelnen Punke. Leider wurde mir auch hier klar dass die Zeit zu kurtz sein würde um alles was ich gerne umsetzten wollte zu erbringen. So habe ich mich als sich die Zeit langsahm zu ende neigte nur noch um das wichtigste und Funktionalität gekümmert und das es zumindest im localen Host gut aussiet.
+Dann erstellte ich die Work in Progress Seite. In dieser wollte ich ein spezielles SVG ausgeben. Eines Welches eine neuinterpretation eines alten Testbildes zusammen mit meinen Logo darstellen sollte.
+So wollte ich den einstieg zur eingentlichen Seiten machen. 
+So das jeder siet dass sie noch im Aufbau ist.
+So arbeitete ich mich durch die einzelnen Punke. Angefangen mit der main und index.blade.php. Ich werde nicht alles aufzählen. 
+Bitte Trello link beachetn.
+
+Leider wurde mir auch hier klar dass die Zeit zu kurtz sein würde um alles was ich gerne umsetzten wollte ein zu bringen. So habe ich mich als sich die Zeit langsahm zu ende neigte, nur noch um das wichtigste und die Funktionalität gekümmert. Damit es zumindest im localen Host gut aussieht.
+
+#Retrospektieve: Projekt "MasterPiece"
+----------------
+## Ist gut gegangen
+#Gut:1
+------
+Was ich besondes gut an dieser Aufgabe gefundenhabe ist das ich nun einen viel besseren einblick und besseres verständnis für die funktionalität von Figma und Laravell mit Breez erlngt habe. 
+So bin ich zum einen in der Lage bin im Trello (noch nicht Perfekt) einen brauchbaren Presentations-Entwurf zu erstellen. So das ich mein Projekt richtig presentieren kann und das ich es stukturell nutzen kann.
+Zum andern das ich einen tieferen Einblick ins Laravell und dessen Funktionalität gewonnen habe.
+
+#Gut:2
+------
+Ich habe für mich viel über Projektmanagement gelert. Gute Planung ist die halbe Arbeit. Mann sollte sich im vorfeld allgemeinen Geanken über Projekt Struktur, Aufwand, Machbarkeit(Zeit), Umsetzbarkeit machen. Natürlich zu den noramlen Recherchen.
+
+## Gab Probleme
+#Probleme: Projekt "MasterPiece" 
+----------
+
+#Problem:1
+----------
+Habe mir ein "Turitorial" gesucht um dei Seite Proffesioneller aufzubauen.Leider habe ich nur eine gefunden in dem der User mit Widows unter Oracel arbeitete. Ich jedoch arbeite Ubuntu mit VisualCode.Dies hatte zu folge das ich all zu oft den Code umdenken musste daher er zum teil anders geschrieben wird.
+Zeit Zeit die liebe Zeit :).
+Lösung: Augen zu und durch.
+
+
+#Problem:2
+----------
+Wir hatten das Problem dass, nachdem wir die Daten auf den Sever transveriert haben dies Stylings nicht richtg angezeigt wurden.
+Lösung: 
+
+
+#Problem:3
+----------
+Ein Problem waren die grund Konfigurationen.Ich hatte nur ein Beispiele in welchem der User unter Widows Arbeitete und noch in einem Anderen Code Programm (Oracel) und ich unter Ubuntu mit VisualCode. Dieses Umdenken haben mich sehr viel Zeit gekosted.
+Lösung: Habe nach einer gewissen Zeit begonnen alles zur Seit zu legen und es ohne Turitorial zu probieren. Punktuelle lösungen gesucht.
+
+#Problem:4
+----------
+Weitere Probleme enstanden duch Tipos.
+Lösung: Mehr kontrollieren besser schauen.
+
+
 
 
 
@@ -126,31 +172,5 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-## Probleme
-#Probleme: Projekt "MasterPiece" 
-----------
-
-#Problem:1
-----------
-Habe mir ein "Turitorial" gesucht um dei Seite Proffesioneller aufzubauen.Leider habe ich nur eine gefunden in dem der User mit Widows unter Oracel arbeitete. Ich jedoch arbeite Ubuntu mit VisualCode.Dies hatte zu folge das ich all zu oft den Code umdenken musste daher er zum teil anders geschrieben wird.
-Zeit Zeit die liebe Zeit :).
-Lösung: Augen zu und durch.
-
-
-#Problem:2
-----------
-Wir hatten das Problem dass, nachdem wir die Daten auf den Sever transveriert haben dies Stylings nicht richtg angezeigt wurden.
-Lösung: 
-
-
-#Problem:3
-----------
-Ein Problem waren die grund Konfigurationen.Ich hatte nur ein Beispiele in welchem der User unter Widows Arbeitete und noch in einem Anderen Code Programm (Oracel) und ich unter Ubuntu mit VisualCode. Dieses Umdenken haben mich sehr viel Zeit gekosted.
-Lösung: Habe nach einer gewissen Zeit begonnen alles zur Seit zu legen und es ohne Turitorial zu probieren. Punktuelle lösungen gesucht.
-
-#Problem:4
-----------
-Weitere Probleme enstanden duch Tipos.
-Lösung: Mehr kontrollieren besser schauen.
 
 
