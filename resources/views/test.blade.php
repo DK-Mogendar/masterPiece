@@ -5,7 +5,7 @@
             <div class="bg-indigo-100 shadow rounded"> 
                 <br>
                 <div class="container bg-indigo-100">     
-                    <img src="{{ asset('images/FLogo.png') }}" alt="png-Bild">
+                    <img src="{{ asset('images/FLogo.png')}}" alt="png-Bild">
                 </div>
                 <br>
             
