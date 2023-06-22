@@ -23,7 +23,7 @@
                <a href="{{ url('start') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">login</a>
             </button>
          </div>
-
+      
         </div>
       </div>
    </div>
