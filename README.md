@@ -1,6 +1,6 @@
 
 
-Hier kommt noch mein logo hin
+<img src="{{ asset('images/FLogo.svg') }}" alt="SVG-Bild" 
 
 
 <a href="{{ url('/') }}" class="font-bold mr-5 text-blue-600">Mogendar-Art-Blog</a>
