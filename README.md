@@ -1,6 +1,6 @@
 
 
-<img src="{{ asset('images/FLogo.svg') }}" alt="SVG-Bild">
+<img src="{{ asset('images/FLogo.png') }}" alt="png-Bild">
 
 
 <a href="{{ url('/') }}" class="font-bold mr-5 text-blue-600">Mogendar-Art-Blog</a>
