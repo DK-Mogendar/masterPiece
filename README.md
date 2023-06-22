@@ -5,24 +5,51 @@ Hier kommt noch mein logo hin
 
 <a href="{{ url('/') }}" class="font-bold mr-5 text-blue-600">Mogendar-Art-Blog</a>
 -----------------------------------------------------------------------------------------------------------------------------------
-##Projekt verlauf:
+##Projekt verlauf:  
 ------------------
+02.05.2023 - 22.06.2023
 
-Ganz zu beginn des Projekts MasterPiece wollte ich einen Webshop machen. Dazu habe ich zuest ein Wireframe estellt.
+#Projektplanung Zeitmanagement:
+------------
+https://docs.google.com/spreadsheets/d/1WmhBo2von8FH1dGNbl33WwQweFwGgwZYpiDO6qyJwyw/edit#gid=0
+https://trello.com/b/ga35GFEH/masterpiece
+
+
+#Der Anfang: Projekts "MasterPiece"
+------------
+Ganz zu beginn der Aufgabe habe ich mich zuerst für einen Webshop entschieden. Daher habe ich mir zuerst ein Wireframe erstellt um die ungefähre Struktur und das ungefähre Aussehen darzustellen.
 
 https://www.figma.com/file/4jsGdcpsOYCJh5FBRDtnA5/Master-Piece-Wireframe?type=design&node-id=0%3A1&t=5BtlWx3jc9Fxj83k-1
 
-und Anschliessend Ein Figma erstellt. 
+Damit ich auch mehr authenzität in das Projekt bringen konnte, habe ich es mehreren Leuten gezeigt und nach Ihrer Meinung gefrag.
+Leider war die Resonantz nich gaz so gut. Darum habe ich noch einmal Begonnen. Mit einem komplett neuen Ansatz. Dies kahm dann Optisch sehr gut an.
+Anschliessend erstellte ich ein Figma MockUp.
+Da ich vorhabe mich im Bereich Frontend zu Spezialiesieren habe ich mich dan zuerst nochmal mit dem Programm Figma beschäftigt. Diesmal wollte ich es Proffessioneller machen so das auch ein Testdummy der Webseite ensteht, durch den mach auch Navigieren kann.
+So dass ich es auch einem Potenziellen Kunden zeigen kann. Dies verschlang aber unmengen an Zeit. Als ich dann alles so weit beisammen hatte, bemerkte ich dass dieses Projekt in anbetracht der mir noch verbleibenden Zeit nicht mehr umsetzen konnte. 
+Daher musste ich mich umentscheiden und habe mich dann für einen KunstBlog entschieden.
 
-Ausserdem Habe ich einige SVG produziert. Nach anfänglichen änderungen nach ersten Feedbacks musste ich nochmals alles re Desingen. Je mehr ich jedoch daran gearbeited habe habe ich bemerkt das es Zeitlich nicht mehr hinnhauen kann habe ich das Kozept Webshop über den Haufen Geworfen und mich doch für einen Blog entschieden. Dieser ganz Vorprozess hat mich ungaublich viel Zeit gekosted, so das ich das Projekt um Zwei wochen Verlängern musste. Genauere Detail im Trello.
-
+#Allses auf null: Projekts "MasterPiece"
+-----------------
+So Begann ich also Mit dem Projekt Mogendar-Art-Blog.
+Leider hatte ich Zeitlich nicht mehr die Recouse um nochmals ein Figma von grund auf zu machen. Daher habe ich einfach das bestehende umgebaut.
 https://www.figma.com/file/ytZYVm6HyRTR2lV9VP1nXW/Master-Piece-Mockup?type=design&node-id=0%3A1&t=70z3zJ21BkFEGOhT-1
 
-https://trello.com/b/ga35GFEH/masterpiece
 
-So Begann ich also Mit dem Projekt Mogendar-Art-Blog.
-Leider hatte ich Zeitlich nicht mehr die Recouse um nochmals ein Figma zu machen. Dahe habe ich einfach ohne eines Begonnen. Ich hatte zwar so ein ungefähres Bild vor Augen aber ja.
-Ein weiteres Problem waren die grund Konfigurationen.Ich hatte nur ein Beispiele in welchem der User unter Widows Arbeitete und noch in einem Anderen Code Programm (Oracel) und ich unter Ubuntu mit VisualCode. Dieses Umdenken haben mich sehr viel Zeit gekosted.
+#Probleme: Projekts "MasterPiece"
+-----------------
+Problem 1
+Das erste Problem begann mit dem Hosten auf 
+
+Problem 2
+
+Problem 3
+Ein Problem waren die grund Konfigurationen.Ich hatte nur ein Beispiele in welchem der User unter Widows Arbeitete und noch in einem Anderen Code Programm (Oracel) und ich unter Ubuntu mit VisualCode. Dieses Umdenken haben mich sehr viel Zeit gekosted.
+
+
+
+
+
+
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
