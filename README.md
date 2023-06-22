@@ -12,7 +12,6 @@ Hier kommt noch mein logo hin
 #Projektplanung Zeitmanagement:
 ------------
 https://docs.google.com/spreadsheets/d/1WmhBo2von8FH1dGNbl33WwQweFwGgwZYpiDO6qyJwyw/edit#gid=0
-https://trello.com/b/ga35GFEH/masterpiece
 
 
 #Der Anfang: Projekts "MasterPiece"
@@ -35,18 +34,46 @@ Leider hatte ich Zeitlich nicht mehr die Recouse um nochmals ein Figma von grund
 https://www.figma.com/file/ytZYVm6HyRTR2lV9VP1nXW/Master-Piece-Mockup?type=design&node-id=0%3A1&t=70z3zJ21BkFEGOhT-1
 
 
+#Projekt ertwicklung: Projekt "MasterPiece"
+---------------------
+So begann ich damit die einzelnen Videos mir anzusehen. Zudem habe ich mir zur besseren Plahnung (Rat von Anita) noch ein Trello erstellt. So das die Offenen und erledigten Arbeiten besser Ersichtlich sind.
+https://trello.com/b/ga35GFEH/masterpiece
 
 
-#Probleme: Projekts "MasterPiece"
--------------------
-Problem 1
+#Projekt Programmierung: Projekt "MasterPiece"
+------------------------
+Am Anfang ging es schnell und gut (ist am Anfang immer so)
+Ich erstellte die grundlegende Struktur mit Laravell mit Breeze.
+Dann erstellte ich die Work in Progress Seite. In dieser wollte ich ein spezielles SVG darstellen Welches eine neuinterpretation eines alten Testbildes zusammen mit meinen Logo darstellen sollte.
+Das gatze sollte als Einstieg zu der eigentlichen Webseite werden. So das jeder siet dass sie noch im Aufbau ist.
+So arbeitete ich mich durch die einzelnen Punke. Leider wurde mir auch hier klar dass die Zeit zu kurtz sein würde um alles was ich gerne umsetzten wollte zu erbringen. So habe ich mich als sich die Zeit langsahm zu ende neigte nur noch um das wichtigste und Funktionalität gekümmert und das es zumindest im localen Host gut aussiet.
+
+
+#Probleme: Projekt "MasterPiece" 
+----------
+
+Problem:1
+---------
 Habe mir ein "Turitorial" gesucht um dei Seite Proffesioneller aufzubauen.Leider habe ich nur eine gefunden in dem der User mit Widows unter Oracel arbeitete. Ich jedoch arbeite Ubuntu mit VisualCode.Dies hatte zu folge das ich all zu oft den Code umdenken musste daher er zum teil anders geschrieben wird.
 Zeit Zeit die liebe Zeit :).
+Lösung: Augen zu und durch.
 
-Problem 2
 
-Problem 3
+Problem:2
+---------
+Wir hatten das Problem dass, nachdem wir die Daten auf den Sever transveriert haben dies Stylings nicht richtg angezeigt wurden.
+Lösung: 
+
+
+Problem:3
+---------
 Ein Problem waren die grund Konfigurationen.Ich hatte nur ein Beispiele in welchem der User unter Widows Arbeitete und noch in einem Anderen Code Programm (Oracel) und ich unter Ubuntu mit VisualCode. Dieses Umdenken haben mich sehr viel Zeit gekosted.
+Lösung: Habe nach einer gewissen Zeit begonnen alles zur Seit zu legen und es ohne Turitorial zu probieren. Punktuelle lösungen gesucht.
+
+Problem:4
+---------
+Weitere Probleme enstanden duch Tipos.
+Lösung: Mehr kontrollieren besser schauen.
 
 
 
