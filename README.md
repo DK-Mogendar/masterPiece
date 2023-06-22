@@ -1,5 +1,5 @@
 
-<img src="{{ asset('images/FLogeo.jpg') }}" alt="logo" >
+<img src="{{ asset('images/FLogo.jpg') }}" alt="logo" >
 
 
 
