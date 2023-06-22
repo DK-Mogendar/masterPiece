@@ -1,5 +1,5 @@
 
-<img src="{{ asset('images/FLogo.jpg') }}" alt="logo" >
+<img src="{{ asset('images/UAvQ.gif') }}" alt="gis-Bild-tukamock" style="border-radius: 50px; height: auto; width: 100%;border: 3px solid rgb(54, 42, 165) ;">
 
 
 
