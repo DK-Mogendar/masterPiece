@@ -1,8 +1,4 @@
 
-<img src="{{ asset('images/UAvQ.gif') }}" alt="gis-Bild-tukamock" style="border-radius: 50px; height: auto; width: 100%;border: 3px solid rgb(54, 42, 165) ;">
-
-
-
 <a href="{{ url('/') }}" class="font-bold mr-5 text-blue-600">Mogendar-Art-Blog</a>
 -----------------------------------------------------------------------------------------------------------------------------------
 ##Projekt verlauf:  
