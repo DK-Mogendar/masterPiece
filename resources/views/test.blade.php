@@ -5,7 +5,7 @@
             <div class="bg-indigo-100 shadow rounded"> 
                 <br>
                 <div class="container bg-indigo-100">     
-                    <img src="{{ asset('images/FLogo.svg') }}" alt="SVG-Bild">
+                    <img src="{{ asset('images/FLogo.png') }}" alt="png-Bild">
                 </div>
                 <br>
             
@@ -14,6 +14,7 @@
                 <div class="rounded-b border-t border-gray-300 p-5 text-gray-700 text-xs bg-indigo-100">
                 
                     <h2 class="text-blue text-xl ">Projekt MasterPiece</h2>
+                    <br>
                     <p>02.05.2023 - 22.06.2023
                         <br>
                         <h3>Kleine Projektgeschiche</h3>   
@@ -52,6 +53,9 @@
                         Daniel Köstinger
                     </p>
                     
+                    <br>
+                    <br>
+                    <img src="{{ asset('images/UAvQ.gif') }}" alt="gis-Bild-tukamock" style="border-radius: 50px; height: auto; width: 100%;border: 3px solid rgb(54, 42, 165) ;">
                 </div>
             </div>
     
@@ -62,9 +66,11 @@
             </div>
             <br>
             <br>
+            
         </div>
+        
     </div>
     
   
-   
+    
 </x-layouts.main>
