@@ -49,31 +49,6 @@ Das gatze sollte als Einstieg zu der eigentlichen Webseite werden. So das jeder 
 So arbeitete ich mich durch die einzelnen Punke. Leider wurde mir auch hier klar dass die Zeit zu kurtz sein würde um alles was ich gerne umsetzten wollte zu erbringen. So habe ich mich als sich die Zeit langsahm zu ende neigte nur noch um das wichtigste und Funktionalität gekümmert und das es zumindest im localen Host gut aussiet.
 
 
-#Probleme: Projekt "MasterPiece" 
-----------
-
-#Problem:1
-----------
-Habe mir ein "Turitorial" gesucht um dei Seite Proffesioneller aufzubauen.Leider habe ich nur eine gefunden in dem der User mit Widows unter Oracel arbeitete. Ich jedoch arbeite Ubuntu mit VisualCode.Dies hatte zu folge das ich all zu oft den Code umdenken musste daher er zum teil anders geschrieben wird.
-Zeit Zeit die liebe Zeit :).
-Lösung: Augen zu und durch.
-
-
-#Problem:2
-----------
-Wir hatten das Problem dass, nachdem wir die Daten auf den Sever transveriert haben dies Stylings nicht richtg angezeigt wurden.
-Lösung: 
-
-
-#Problem:3
-----------
-Ein Problem waren die grund Konfigurationen.Ich hatte nur ein Beispiele in welchem der User unter Widows Arbeitete und noch in einem Anderen Code Programm (Oracel) und ich unter Ubuntu mit VisualCode. Dieses Umdenken haben mich sehr viel Zeit gekosted.
-Lösung: Habe nach einer gewissen Zeit begonnen alles zur Seit zu legen und es ohne Turitorial zu probieren. Punktuelle lösungen gesucht.
-
-#Problem:4
-----------
-Weitere Probleme enstanden duch Tipos.
-Lösung: Mehr kontrollieren besser schauen.
 
 
 
@@ -151,5 +126,31 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+## Probleme
+#Probleme: Projekt "MasterPiece" 
+----------
+
+#Problem:1
+----------
+Habe mir ein "Turitorial" gesucht um dei Seite Proffesioneller aufzubauen.Leider habe ich nur eine gefunden in dem der User mit Widows unter Oracel arbeitete. Ich jedoch arbeite Ubuntu mit VisualCode.Dies hatte zu folge das ich all zu oft den Code umdenken musste daher er zum teil anders geschrieben wird.
+Zeit Zeit die liebe Zeit :).
+Lösung: Augen zu und durch.
+
+
+#Problem:2
+----------
+Wir hatten das Problem dass, nachdem wir die Daten auf den Sever transveriert haben dies Stylings nicht richtg angezeigt wurden.
+Lösung: 
+
+
+#Problem:3
+----------
+Ein Problem waren die grund Konfigurationen.Ich hatte nur ein Beispiele in welchem der User unter Widows Arbeitete und noch in einem Anderen Code Programm (Oracel) und ich unter Ubuntu mit VisualCode. Dieses Umdenken haben mich sehr viel Zeit gekosted.
+Lösung: Habe nach einer gewissen Zeit begonnen alles zur Seit zu legen und es ohne Turitorial zu probieren. Punktuelle lösungen gesucht.
+
+#Problem:4
+----------
+Weitere Probleme enstanden duch Tipos.
+Lösung: Mehr kontrollieren besser schauen.
 
 
