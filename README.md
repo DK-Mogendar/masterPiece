@@ -35,10 +35,13 @@ Leider hatte ich Zeitlich nicht mehr die Recouse um nochmals ein Figma von grund
 https://www.figma.com/file/ytZYVm6HyRTR2lV9VP1nXW/Master-Piece-Mockup?type=design&node-id=0%3A1&t=70z3zJ21BkFEGOhT-1
 
 
+
+
 #Probleme: Projekts "MasterPiece"
------------------
+-------------------
 Problem 1
-Das erste Problem begann mit dem Hosten auf 
+Habe mir ein "Turitorial" gesucht um dei Seite Proffesioneller aufzubauen.Leider habe ich nur eine gefunden in dem der User mit Widows unter Oracel arbeitete. Ich jedoch arbeite Ubuntu mit VisualCode.Dies hatte zu folge das ich all zu oft den Code umdenken musste daher er zum teil anders geschrieben wird.
+Zeit Zeit die liebe Zeit :).
 
 Problem 2
 
