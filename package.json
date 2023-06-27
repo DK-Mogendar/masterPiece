@@ -5,6 +5,7 @@
         "dev": "vite",
         "build": "vite build",
         "watch": "vite --watch"
+
     },
     "devDependencies": {
         "@popperjs/core": "^2.11.6",
