@@ -16,7 +16,7 @@
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-    
+    <script src="{{ mix('js/app.js') }}"></script>
 </head>
 <body style="background-image: url('{{ asset('images/hg.jpg') }}');"      class="bg-indigo-100 min-h-screen flex flex-col">
 
