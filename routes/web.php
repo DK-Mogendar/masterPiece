@@ -2,6 +2,7 @@
 use \App\Http\Controllers\StartpageContoller;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ImageController;
+use App\Http\Controllers\PostController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,8 +26,9 @@ Route::get('/blog/{id}', function($id) {
     $post=\App\Models\Post::first();
     return view('blog.show', compact('post'));
 });
-
-
+/*PostContoller------------------------------------------------------------*/
+Route::get('/', [StartpageController::class, 'index'])->name('startpage.index');
+Route::get('/blog/{id}', [PostController::class, 'show'])->name('blog.show');
 /*-------------------------------------------------------------------------*/
 Route::get('/', function () {
     return view('wip');
@@ -40,7 +42,7 @@ Route::get('/test', function () {
 Route::get('/aboutMy', function () {
     return view('aboutMy');
 });
-//Bilder----------------------------------------------------------------------------------
+/*Bilder---------------------------------------------------------------------*/
 
 Route::get('/images', [ImageController::class, 'index'])->name('images.index');
 Route::get('/images/{id}', [ImageController::class, 'show'])->name('images.show');
