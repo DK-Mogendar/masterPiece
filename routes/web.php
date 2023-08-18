@@ -41,10 +41,11 @@ Route::get('/aboutMy', function () {
     return view('aboutMy');
 });
 //Bilder----------------------------------------------------------------------------------
-Route::get('/images', [ImageController::class, 'index']);
-Route::get('/images/{id}', [ImageController::class, 'show']);
-Route::get('/images/upload', [ImageController::class, 'create']);
-Route::post('/images', [ImageController::class, 'store']);
+
+Route::get('/images', [ImageController::class, 'index'])->name('images.index');
+Route::get('/images/{id}', [ImageController::class, 'show'])->name('images.show');
+Route::get('/images/upload', [ImageController::class, 'create'])->name('images.upload');
+Route::post('/images', [ImageController::class, 'store'])->name('images.store');
 
 //Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
