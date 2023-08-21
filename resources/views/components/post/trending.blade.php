@@ -1,12 +1,21 @@
 <div class="bg-white shadow p-5 rounded-sm">
     <div class="border-b-2 border-blue-700 relative flex items-center justify-center">
-        <h3 class="absolute bg-white px-4 text-xs text-gray-500 font-medium">Interssante Beiträge</h3>
+        <h3 class="absolute bg-white px-4 text-xs text-gray-500 font-medium">Interssante Kunst Webseiten</h3>
     </div>
     <div class="mt-5 text-gray-700 text-sm">
         <ul>
-            @foreach ($posts as $post)
-            <li><a href="/post/{{$post['id']}}">{{$post['title']}}</a></li>
-            @endforeach
+           
+            <li><a href="https://www.kunsthaus.ch/?gclid=CjwKCAjwloynBhBbEiwAGY25dLP_SpsmWihq-DI8lnjR1XHF7MHD8tV9YjTgTsWc8KONzn-HcobuxRoCDmQQAvD_BwE">Kunsthaus Zürich</a></li>
+            <li><a href="https://www.singulart.com/de/?campaign_id=203&keyword=kunst%20online&matchtype=p&gclid=CjwKCAjwloynBhBbEiwAGY25dAkoScfURCt9XlgEzRWnHk5JTBkGyDzMvtzNZZu7x497Ki4E3bL6zRoCjh8QAvD_BwE">SINGULART</a></li>
+            <li><a href="">L</a></li>
+            <li><a href="">L</a></li>
+            <li><a href="">L</a></li>
+            <li><a href="">L</a></li>
+            <li><a href="">L</a></li>
+            <li><a href="">L</a></li>
+            <li><a href="">L</a></li>
+            <li><a href="">L</a></li>
+           
         </ul>
     </div>
 </div>

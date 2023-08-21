@@ -25,7 +25,7 @@ class Newest extends Component
     {
         $posts = Post::latest()
         ->active()
-        ->limit(5)
+        ->limit(10)
         ->get();
 
         return view('components.post.newest', compact('posts'));
