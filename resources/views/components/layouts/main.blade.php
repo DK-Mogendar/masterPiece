@@ -64,7 +64,8 @@
     
     </div>
 </main>
-
+<br>
+<br>
 <x-layouts.footer/>
 
 
