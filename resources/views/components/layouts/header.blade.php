@@ -3,7 +3,7 @@
         <ul class="flex space-x-5">
             <a href="{{ url('/') }}" class="font-bold mr-5 text-blue-600">Mogendar-Art-Blog</a>
             <li><a href="{{ url('start') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">Home/Start</a></li>
-            <li><a href="{{ url('welcome') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">Archiv Laravel</a></li>
+            <!--<li><a href="{{ url('welcome') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">Archiv Laravel</a></li>-->
             <li><a href="{{ url('test') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">Newsletter</a></li>
             <li><a href="{{ url('aboutMy') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">About Me</a></li>
         </ul>

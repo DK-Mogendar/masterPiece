@@ -29,6 +29,7 @@ Route::get('/blog/{id}', function($id) {
 /*PostContoller------------------------------------------------------------*/
 Route::get('/', [StartpageController::class, 'index'])->name('startpage.index');
 Route::get('/blog/{id}', [PostController::class, 'show'])->name('blog.show');
+Route::get('/blog/{post}', 'BlogController@show')->name('blog.show');
 /*-------------------------------------------------------------------------*/
 Route::get('/', function () {
     return view('wip');
