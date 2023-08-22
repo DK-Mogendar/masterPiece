@@ -29,7 +29,7 @@ Route::get('/blog/{id}', function($id) {
 /*Postrouten------------------------------------------------------------*/
 Route::get('/', [StartpageController::class, 'index'])->name('startpage.index');
 Route::get('/blog/{id}', [PostController::class, 'show'])->name('blog.show');
-Route::get('/blog/{post}', 'BlogController@show')->name('blog.show');
+Route::get('/blog/{post}', [PostController::class, 'show'])->name('blog.show');
 /*Viewsrouten-------------------------------------------------------------------------*/
 Route::get('/', function () {
     return view('wip');
