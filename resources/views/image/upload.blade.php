@@ -8,15 +8,15 @@
         @elseif (session('error'))
             <div class="alert alert-danger">{{ session('error') }}</div>
         @endif
-        <form action="{{ route('image.upload') }}" method="POST" enctype="multipart/form-data">
+        <form action="{{ route('images.store') }}" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" name="name" class="form-control" required>
+                <label for="title">Titel:</label>
+                <input type="text" name="title" class="form-control" required>
             </div>
             <div class="form-group">
-                <label for="image">Bild auswählen:</label>
-                <input type="file" name="image" class="form-control" accept="image/*" required>
+                <label for="logblob">Bild auswählen:</label>
+                <input type="file" name="logblob" class="form-control" accept="image/*" required>
             </div>
             <button type="submit" class="btn btn-primary">Hochladen</button>
         </form>

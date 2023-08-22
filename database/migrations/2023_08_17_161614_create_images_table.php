@@ -10,7 +10,7 @@ class CreateImagesTable extends Migration
     {
         Schema::create('images', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
+            $table->string('title'); // Anpassung: 'title' statt 'name'
             $table->longText('logblob');
             $table->timestamps();
         });

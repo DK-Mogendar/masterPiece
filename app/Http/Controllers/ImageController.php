@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Image; // Stellen Sie sicher, dass das korrekte Model importiert wird
-use App\Http\Controllers\Controller; // Importieren Sie den Controller
+use App\Models\Image;
+use App\Http\Controllers\Controller;
 
 class ImageController extends Controller
 {
@@ -28,21 +28,21 @@ class ImageController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'name' => 'required',
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'title' => 'required',
+            'logblob' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
 
         $image = new Image();
 
-        $image->name = $request->input('name');
+        $image->title = $request->input('title');
 
-        if ($request->hasFile('image')) {
-            $imageFile = $request->file('image');
+        if ($request->hasFile('logblob')) {
+            $imageFile = $request->file('logblob');
             $imageName = time() . '.' . $imageFile->getClientOriginalExtension();
-            $imagePath = public_path('resources/uploads'); // Hier wird der Pfad angepasst
+            $imagePath = public_path('resources/uploads');
             $imageFile->move($imagePath, $imageName);
-        
-            $image->image_data = 'resources/uploads/' . $imageName; // Hier wird der Pfad angepasst
+
+            $image->logblob = 'resources/uploads/' . $imageName;
         }
         $image->save();
 
