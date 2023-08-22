@@ -10,11 +10,11 @@
             <li><a href="https://www.kunstzuerich.ch/de/home.html">kunst23</a></li>
             <li><a href="https://www.zuerich.com/de/besuchen/kultur-in-zuerich">Kunst, Kultur und Museen in Zürich</a></li>
             <li><a href="https://www.kunstplaza.de/allgemein/kunst-definition/">Kunstlpaza</a></li>
-            <li><a href="">L</a></li>
-            <li><a href="">L</a></li>
-            <li><a href="">L</a></li>
-            <li><a href="">L</a></li>
-            <li><a href="">L</a></li>
+            <li><a href="https://www.hauskonstruktiv.ch/">hauskonsturktiv</a></li>
+            <li><a href="https://www.kulturzueri.ch/ausstellungen/">Kultur Zürich</a></li>
+            <li><a href="https://rietberg.ch/">Museum Rietberg</a></li>
+            <li><a href="https://ch.lumas.com/homepage/?gclid=Cj0KCQjwuZGnBhD1ARIsACxbAVjqws01GplbVDDDsXXuQQVLJq1P4XNxOqELcJhoqMg2OTE0ol87yvIaAh75EALw_wcB">LUMAS</a></li>
+            <li><a href="https://sauriermuseum.ch/">Sauriermuseum Aatal</a></li>
            
         </ul>
     </div>

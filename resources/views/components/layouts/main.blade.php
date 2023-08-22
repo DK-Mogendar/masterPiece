@@ -25,6 +25,15 @@
       @else 
         <x-layouts.header-backend/>
       @endif
+      
+
+
+      <div class=" shadow rounded-sm mb-5" style="background-color:rgb(54, 42, 165, 0.7);">
+        <h2 class="text-black">.</h2>
+        </div>
+
+
+
 
 <main class="flex flex-1 container max-w-7xl mx-auto px-5 lg:px-40 space-x-5 mb-5">
     {{ $slot }}
@@ -49,11 +58,11 @@
             {{--<x-post.categories/>--}}
 
             <div class=" shadow rounded-sm" style="background-color:rgb(54, 42, 165, 0.8);">
-                <h2 class="text-white text-2xl p-5">Blogs</h2>
+                <h2 class="text-white text-2xl p-5">Blogs die akuellsten 10</h2>
             </div>
             <x-post.newest/>
             <div class=" shadow rounded-sm" style="background-color:rgb(54, 42, 165, 0.8);">
-                <h2 class="text-white text-2xl p-5">Kunstseiten</h2>
+                <h2 class="text-white text-2xl p-5">Kunst Seiten Inspiration</h2>
             </div>
             <x-post.trending/>
             <br>
