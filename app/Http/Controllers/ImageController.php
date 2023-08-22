@@ -29,7 +29,7 @@ class ImageController extends Controller
     {
         $request->validate([
             'title' => 'required',
-            'logblob' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'logblob' => 'required|image|mimes:jpeg,png,jpg,gif',
         ]);
 
         $image = new Image();
