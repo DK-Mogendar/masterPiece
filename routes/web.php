@@ -44,10 +44,6 @@ Route::get('/aboutMy', function () {
     return view('aboutMy');
 });
 /*Imagerouten---------------------------------------------------------------------*/
-Route::get('/images', [ImageController::class, 'index'])->name('images.index');
-Route::get('/images/{id}', [ImageController::class, 'show'])->name('images.show');
-Route::get('/images/upload', [ImageController::class, 'create'])->name('images.upload');
-Route::post('/images', [ImageController::class, 'store'])->name('images.store');
 
 /*Authentifizierungsrouten---------------------------------------------------------------------*/
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
