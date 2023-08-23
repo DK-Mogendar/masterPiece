@@ -28,9 +28,9 @@
       
 
 
-      <div class=" shadow rounded-sm mb-5" style="background-color:rgb(54, 42, 165, 0.7);">
-        <h2 class="text-black">.</h2>
-        </div>
+      <div class="shadow rounded-sm mb-5" style="background-color:rgb(54, 42, 165, 0.7);">
+        <h2 class="text-black" style="color: rgb(54, 42, 165, 0.0);">.</h2>
+      </div>
 
 
 
