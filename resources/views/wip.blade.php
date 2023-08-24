@@ -19,11 +19,11 @@
       <div class="row justify-content-center">
         <div class="col-12 mt-3 mb-3">
          <div class="my-div d-flex justify-content-center ma-5">
-            <img src="{{ asset('images/wip.svg') }}" alt="SVG-Bild" style="border-radius: 50px; height: auto; width:55%; border: 25px solid brown;">
+            <img src="{{ asset('images/wip.svg') }}" alt="SVG-Bild" style="border-radius: 50px; height: auto; width:55%; border: 25px solid rgb(71, 69, 69);">
          </div>
 
          <div class="my-div d-flex justify-content-center">
-            <button type="button" class="btn btn" style="border-radius: 50px; height: auto; width: 55%;border: 25px solid brown;">
+            <button type="button" class="btn btn" style="border-radius: 50px; height: auto; width: 55%;border: 25px solid rgb(71, 69, 69);">
                <a href="{{ url('start') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">Weiter zur Webseite</a>
             </button>
          </div>
