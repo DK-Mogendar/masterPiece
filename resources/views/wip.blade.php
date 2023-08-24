@@ -1,24 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-   
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>workInProgress</title>
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-</head>
-<style>
-   body {
-       font-family: 'Nunito', sans-serif;
-   }
-</style>
+<x-layouts.main>
 
 <body style="background-image: url('{{ asset('images/hg.jpg') }}');background-size: cover;background-repeat: no-repeat;background-position: center center; min-height:100vh;">
-   <x-layouts.header-backend/>
-   <br>
-   <br>
-   <br>
+ 
  
    <div class="container">
       <div class="row justify-content-center">
@@ -47,17 +30,15 @@
 
             <div class="my-div d-flex justify-content-center text-blue text-2xl">
                <button type="button" class="btn btn" style="border-radius: 50px; height: auto; width: 55%;border: 25px solid rgb(71, 69, 69);">
-                  <a href="{{ url('start') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">Weiter zur Webseite</a>
+                  <a href="{{ url('start') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">Weiter</a>
                </button>
             </div>
       
         </div>
       </div>
    </div>
-   <x-layouts.footer-backend/>
-   <br>
-   <br>
+
    <br>
 </body>
 
-</html>
+</x-layouts.main>
