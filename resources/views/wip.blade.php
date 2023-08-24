@@ -8,10 +8,10 @@
         <div class="col-12 mt-3 mb-3">
 
             <div class="my-div d-flex justify-content-center ma-5">
-               <img src="{{ asset('images/wip.svg') }}" alt="SVG-Bild" style="border-radius: 50px; height: auto; width:55%; border: 25px solid rgb(71, 69, 69);">
+               <img src="{{ asset('images/wip.svg') }}" alt="SVG-Bild" style="border-radius: 50px; height: auto; border: 5px solid rgb(71, 69, 69);">
             </div>
-            <div class="my-div d-flex justify-content-center">
-               <div class="my-div d-flex justify-content-center rounded-b border-t border-gray-300 p-3 text-gray-700 text-xs bg-indigo-100" style="border-radius: 50px; height: auto; width:55%;border: 5px solid rgb(71, 69, 69);">
+            <div class="my-div d-flex justify-content-center ma-5">
+               <div class="my-div d-flex justify-content-center rounded-b border-t border-gray-300 p-5 text-gray-700 text-xs bg-indigo-100" style="border-radius: 50px; height: auto;border: 5px solid rgb(71, 69, 69);">
                      <br>
                      <ul>   
                         <li class="text-blue text-xl">🔥 Willkommen bei Mogendar-Art.ch – Wo sich Kunst und Kontroversen treffen!🔥</li>
@@ -29,8 +29,8 @@
             </div>
 
             <div class="my-div d-flex justify-content-center text-blue text-2xl">
-               <button type="button" class="btn btn" style="border-radius: 50px; height: auto; width: 55%;border: 25px solid rgb(71, 69, 69);">
-                  <a href="{{ url('start') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">Weiter</a>
+               <button type="button" class="btn btn bg-indigo-100" style="width: 100%; border-radius: 50px; height: auto;border: 5px solid rgb(71, 69, 69);">
+                  <a href="{{ url('start') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">Weiter zu den Blogs</a>
                </button>
             </div>
       
