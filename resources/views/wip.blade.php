@@ -14,7 +14,7 @@
    <br>
    <br>
    <br>
-   <br>
+ 
    <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 mt-3 mb-3">
@@ -32,6 +32,9 @@
       </div>
    </div>
    <x-layouts.footer-backend/>
+   <br>
+   <br>
+   <br>
 </body>
 
 </html>
