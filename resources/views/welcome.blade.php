@@ -11,13 +11,26 @@
 
             <div class="footer rounded-b border-t border-gray-300 p-5 text-gray-700  text-xs bg-indigo-100 ">
                 <ul>   
-                    <li><a href="*">AI vs ART Quelle 1.</a></li>
-                    <li><a href="*">Klimakleber im Museum Quelle 1.</a></li>
-                    <li><a href="*">Hype um NTFS Quelle 1.</a></li>
+                    <li><a href="https://utopia.fans/networks/artist-vs-ai-the-future-has-already-arrived/">AI vs ART Quelle 1.</a></li>
+                    <li><a href="https://www.wertgarantie.de/ratgeber/elektronik/unterhaltung-freizeit/news-trends/was-ist-ki-kunst-das-sind-die-wichtigsten-fakten">AI vs ART Quelle 2.</a></li>
+                   
+                    <li><a href="https://www.tings.ch/post/nft-hype">Hype um NTFS Quelle 1.</a></li>
+                    <li><a href="https://www.ndr.de/kultur/NFTs-Eine-Revolution-in-der-digitalen-">Hype um NTFS Quelle 2.</a></li>
+                    <li><a href="Kunst,kryptokunst100.html">Hype um NTFS Quelle 3.</a></li>
+
+                    <li><a href="https://www.zdf.de/nachrichten/politik/klima-protest-museum-gemaelde-monet-festkleben-100.html">Klimakleber im Museum Quelle 1.</a></li>
+                    <li><a href="https://www.tagblatt.ch/kultur/klimaaktivismus-klima-kunst-und-klebstoff-warum-protestierende-jetzt-von-der-strasse-ins-museum-gehen-ld.2324849">Klimakleber im Museum Quelle 2.</a></li>
+                    <li><a href="https://www.monopol-magazin.de/kommentar-letzte-generation-klebe-aktion-museen-kleben-und-kleben-lassen
+                        ">Klimakleber im Museum Quelle 3.</a></li>
+                    
+                  
+                    <li><a href="https://www.srf.ch/news/schweiz/klimabilanz-feuerwerk-so-schaedlich-ist-feuerwerk-fuers-klima-wirklich#:~:text=So%20steht%20es%20um%20die%20CO%E2%82%82%2DEmissionen&text=Von%20dieser%20Menge%20entfallen%20ca,Z%C3%BCrich%E2%80%93Fiji%20mit%20dem%20Flugzeug.">Grenzen der Kunst  Quelle 1.</a></li>
+                    <li><a href="https://de.wikipedia.org/wiki/Feuerwerk">Grenzen der Kunst  Quelle 2.</a></li>
+                    
+                    <li><a href="https://www.youtube.com/watch?v=Aol6jP-3Nlw&t=1938s">Feuerwerk Kunstform oder Umweltverschmuzung  Quelle 1.</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=bHm9Vh3WnNc">Feuerwerk Kunstform oder Umweltverschmuzung  Quelle 2.</a></li>
+                    
                     <li><a href="*">reseve </a></li>
-                    <li><a href="*">Grenzen der Kunst  Quelle 1.</a></li>
-                    <li><a href="*">Feuerwerk Kunstform oder Umweltverschmuzung  Quelle 1.</a></li>
-                 
                 </ul>
             </div>
 
