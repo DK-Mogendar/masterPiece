@@ -18,15 +18,29 @@
    <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 mt-3 mb-3">
-         <div class="my-div d-flex justify-content-center ma-5">
-            <img src="{{ asset('images/wip.svg') }}" alt="SVG-Bild" style="border-radius: 50px; height: auto; width:55%; border: 25px solid rgb(71, 69, 69);">
-         </div>
 
-         <div class="my-div d-flex justify-content-center">
-            <button type="button" class="btn btn" style="border-radius: 50px; height: auto; width: 55%;border: 25px solid rgb(71, 69, 69);">
-               <a href="{{ url('start') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">Weiter zur Webseite</a>
-            </button>
-         </div>
+            <div class="my-div d-flex justify-content-center ma-5">
+               <img src="{{ asset('images/wip.svg') }}" alt="SVG-Bild" style="border-radius: 50px; height: auto; width:55%; border: 25px solid rgb(71, 69, 69);">
+            </div>
+            <div class="my-div d-flex justify-content-center">
+               <div class="my-div d-flex justify-content-center rounded-b border-t border-gray-300 p-3 text-gray-700 text-xs bg-indigo-100" style="border-radius: 50px; height: auto; width:55%;">
+                     <br>
+                     <ul>   
+                        <li class="text-blue text-xl">Projekt MasterPiece>dsggdfgg</li>
+                        <li>dgdfdfgd</li>
+                        <li>sdfdsfsf</li>
+                        <li>gfdgfgdfg</li>
+                        <li>dgdfgdgd</li>
+                        <li>dgfgdg</li>
+                  </ul>
+               </div>
+            </div>
+
+            <div class="my-div d-flex justify-content-center">
+               <button type="button" class="btn btn" style="border-radius: 50px; height: auto; width: 55%;border: 25px solid rgb(71, 69, 69);">
+                  <a href="{{ url('start') }}" class="btn btn-secondary" style="height: auto; width: 100%;border-radius: 50px;">Weiter zur Webseite</a>
+               </button>
+            </div>
       
         </div>
       </div>
