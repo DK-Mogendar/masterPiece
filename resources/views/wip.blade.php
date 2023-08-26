@@ -14,16 +14,16 @@
                <div class="my-div d-flex justify-content-center rounded-b border-t border-gray-300 p-5 text-gray-700 text-xs bg-indigo-100" style="border-radius: 50px; height: auto;border: 5px solid rgb(71, 69, 69);">
                      <br>
                      <ul>   
-                        <li class="text-blue text-xl">🔥 Willkommen bei Mogendar-Art.ch – Wo sich Kunst und Kontroversen treffen!🔥</li>
+                        <li class="text-blue text-3xl">Willkommen bei Mogendar-Art.ch     Wo sich Kunst und Kontroversen treffen!</li>
                         <br>
-                        <li class="text-blue text-xl">🌐Bist du bereit, die Grenzen des Denkens zu durchbrechen? Tauche ein in eine provokative Welt, in der Kunst und Kontroverses aufeinandertreffen und uns dazu anregen, neu über die Welt um uns herum nachzudenken.🌐</li>
+                        <li class="text-blue text-2xl">Kunstwerke und Artikel, die bewusst Tabus brechen, Fragen aufwerfen und zu Diskussionen anregen</li>
                         <br>
-                        <li class="text-blue text-xl">🎨Artikel und Werke, die bewusst Tabus brechen, Fragen aufwerfen und zur Diskussionen anregen.🎨</li>
+                        <!--<li class="text-blue text-xl">🎨Artikel und Werke, die bewusst Tabus brechen, Fragen aufwerfen und zur Diskussionen anregen.🎨</li>
                         <br>
                         <li class="text-blue text-xl">⚠️ Bereite dich vor - die Kontroverse beginnt bald! ⚠️</li>
                         <br>
-                        <li class="text-blue text-xl">✨Lass die Kunst deine Sinne beflügeln - wir sehen uns auf Mogendar-Art.ch!✨</li>
-                    
+                        <li class="text-blue text-xl">✨Lass die Kunst deine Sinne beflügeln - wir sehen uns auf Mogendar-Art.ch!✨</li>-->
+                                        
                   </ul>
                </div>
             </div>
