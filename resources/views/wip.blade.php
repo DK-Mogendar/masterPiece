@@ -1,6 +1,6 @@
 <x-layouts.main>
 
-<body style="background-image: url('{{ asset('images/hg.jpg') }}');background-size: cover;background-repeat: no-repeat;background-position: center center; min-height:100vh;">
+
  
  
    <div class="container">

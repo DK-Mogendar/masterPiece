@@ -17,7 +17,7 @@
         }
     </style>
 </head>
-<body style="background-image: url('{{ asset('images/hg.jpg') }}');background-size: cover;background-repeat: no-repeat;background-position: center center; min-height:10vh;"
+<body style="background-image: url('{{ asset('images/hg.jpg') }}');background-size: cover;background-repeat: no-repeat;background-position: center center; min-height:100vh;"
       class="bg-gray-100 min-h-screen flex flex-col">
 
       @if (!Route::is('admin*'))
