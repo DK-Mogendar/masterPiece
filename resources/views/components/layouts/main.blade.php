@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Mogendar-Art-Blog</title>
     
     <!-- Fonts -->
@@ -15,7 +15,21 @@
         body {
             font-family: 'Nunito', sans-serif;
         }
+
+        @media (max-width: 768px) {
+        /* Styles für kleinere Bildschirme (Tablets und Handys) */
+        body {
+            background-size: auto; /* Anstatt "cover" für bessere Darstellung auf kleinen Bildschirmen */
+        }
+
+        .container {
+            padding: 0 20px; /* Beispielhafte Anpassung des Seiteninhalts */
+        }
+
+        /* Weitere Anpassungen für kleine Bildschirme hier */
+        }
     </style>
+    
 </head>
 <body style="background-image: url('{{ asset('images/hg.jpg') }}');background-size: cover;background-repeat: no-repeat;background-position: center center; min-height:100vh;"
       class="bg-gray-100 min-h-screen flex flex-col">
