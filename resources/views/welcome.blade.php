@@ -30,7 +30,7 @@
                     <li><a href="https://www.youtube.com/watch?v=Aol6jP-3Nlw&t=1938s">Feuerwerk Kunstform oder Umweltverschmuzung  Quelle 1.</a></li>
                     <li><a href="https://www.youtube.com/watch?v=bHm9Vh3WnNc">Feuerwerk Kunstform oder Umweltverschmuzung  Quelle 2.</a></li>
                     
-                    <li><a href="*">reseve </a></li>
+                    <li><a href="https://www.freepik.com/free-photos-vectors/coming-soon">Bilder für Dummy Blogs</a></li>
                 </ul>
             </div>
 
